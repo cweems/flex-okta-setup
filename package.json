@@ -1,0 +1,20 @@
+{
+  "name": "flex-okta-setup",
+  "version": "1.0.0",
+  "description": "Utility that configures an Okta SAML 2.0 Application from the command line with Flex-friendly defaults.",
+  "main": "setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "opn": "^6.0.0",
+    "prompts": "^2.3.1"
+  },
+  "bin": {
+    "flex-okta-sso": "setup.js"
+  },
+  "devDependencies": {}
+}
